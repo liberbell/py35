@@ -49,3 +49,6 @@ print("The final result is: ", result)
 
 # result = my_int + my_string
 # print("The final result is: ", result)
+
+del net_salary
+print(net_salary)
