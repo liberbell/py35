@@ -41,3 +41,5 @@ print(salary3)
 print(salary1 == salary2)
 
 my_int, my_float, my_bool, my_string = 12, 3.2, False, "Hello world"
+
+print(type(my_int), type(my_float), type(my_bool), type(my_string))
