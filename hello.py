@@ -18,3 +18,8 @@ print(total_score)
 
 average_score = (student_score1 + student_score2) / 2
 print(average_score)
+
+first_name = "Alice"
+last_name = "Bond"
+
+print(first_name + last_name)
