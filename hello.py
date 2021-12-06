@@ -9,3 +9,9 @@ professional_tax = 300
 
 net_salary = gross_salary - (income_tax + retirement_contribution + professional_tax)
 print(net_salary)
+
+student_score1 = 89
+student_score2 = 75
+
+total_score = student_score1 + student_score2
+print(total_score)
