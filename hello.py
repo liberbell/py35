@@ -29,3 +29,8 @@ print(full_name)
 
 salary1 = salary2 = salary3 = 3000000
 print(salary1, salary2, salary3)
+print(salary1 == salary2)
+
+salary1 = salary1 + 10000
+salary2 = salary2 * 1.12
+print(salary1, salary2)
