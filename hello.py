@@ -15,3 +15,6 @@ student_score2 = 75
 
 total_score = student_score1 + student_score2
 print(total_score)
+
+average_score = (student_score1 + student_score2) / 2
+print(average_score)
