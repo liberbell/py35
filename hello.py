@@ -46,3 +46,6 @@ print(type(my_int), type(my_float), type(my_bool), type(my_string))
 
 result = my_int + my_float
 print("The final result is: ", result)
+
+# result = my_int + my_string
+# print("The final result is: ", result)
