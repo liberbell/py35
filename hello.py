@@ -26,3 +26,6 @@ print(first_name + last_name)
 
 full_name = first_name + " " + last_name
 print(full_name)
+
+salary1 = salary2 = salary3 = 3000000
+print(salary1, salary2, salary3)
