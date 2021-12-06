@@ -34,3 +34,6 @@ print(salary1 == salary2)
 salary1 = salary1 + 10000
 salary2 = salary2 * 1.12
 print(salary1, salary2)
+
+salary3 = salary3 - salary3 * 0.03
+print(salary3)
