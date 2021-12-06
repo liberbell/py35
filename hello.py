@@ -37,3 +37,7 @@ print(salary1, salary2)
 
 salary3 = salary3 - salary3 * 0.03
 print(salary3)
+
+print(salary1 == salary2)
+
+my_int, my_float, my_bool, my_string = 12, 3.2, False, "Hello world"
