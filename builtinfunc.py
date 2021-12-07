@@ -22,5 +22,5 @@ print(round(-5.7))
 print(abs(4.5))
 print(abs(-4.5))
 
-favorite_color = input()
+favorite_color = input("Input color:")
 print(favorite_color)
