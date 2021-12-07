@@ -8,3 +8,6 @@ print(type(some_number))
 
 some_complex_number = 20j
 print(type(some_complex_number))
+
+some_boolean = True
+print(type(some_boolean))
