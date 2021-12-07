@@ -10,3 +10,6 @@ print("The final result is: ", (56 + 25) / 9 )
 
 print(type("this is a string"))
 print(type(23))
+
+print(len("Python is a interpreted language."))
+print(len("Python is an untyped language"))
