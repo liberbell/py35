@@ -21,3 +21,6 @@ print(round(6.3))
 print(round(-5.7))
 print(abs(4.5))
 print(abs(-4.5))
+
+favorite_color = input()
+print(favorite_color)
