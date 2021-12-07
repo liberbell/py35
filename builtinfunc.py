@@ -5,3 +5,5 @@ print("The final result is: ", result)
 
 print("The final result is", result, sep=":")
 print("The final result is", result, sep=":", end="*")
+
+print("The final result is: ", (56 + 25) / 9 )
