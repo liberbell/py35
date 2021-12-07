@@ -24,3 +24,6 @@ print(abs(-4.5))
 
 favorite_color = input("Input color:")
 print(favorite_color)
+
+age = input("How old are you?: ")
+print("Your age is: ", age)
