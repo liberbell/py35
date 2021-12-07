@@ -18,3 +18,5 @@ print(min(5, 7, 9, 2, -2, 9))
 print(max(5.7, 8, 4.2, -10, 99))
 
 print(round(6.3))
+print(round(-5.7))
+print(abs(4.5))
