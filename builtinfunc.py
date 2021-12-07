@@ -13,3 +13,6 @@ print(type(23))
 
 print(len("Python is a interpreted language."))
 print(len("Python is an untyped language"))
+
+print(min(5, 7, 9, 2, -2, 9))
+print(max(5.7, 8, 4.2, -10, 99))
