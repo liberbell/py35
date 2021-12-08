@@ -29,3 +29,9 @@ print(type(numbers_list[2]))
 mixed_list = [1, 3.4, "Bob", True]
 print(mixed_list)
 print(type(mixed_list))
+print(type(mixed_list[1]))
+print(type(mixed_list[2]))
+
+record = ("Elton", 34, 10.2, True)
+print(record)
+print(type(record))
