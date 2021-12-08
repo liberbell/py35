@@ -37,3 +37,7 @@ print(record)
 print(type(record))
 print(type(record[0]))
 print(type(record[2]))
+
+range_of_numbers = range(4)
+print(range_of_numbers)
+print(type(range_of_numbers))
