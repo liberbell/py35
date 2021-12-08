@@ -41,3 +41,6 @@ print(type(record[2]))
 range_of_numbers = range(4)
 print(range_of_numbers)
 print(type(range_of_numbers))
+
+colors = {"blue", "red", "yellow"}
+print(colors)
