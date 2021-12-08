@@ -15,3 +15,7 @@ print(type(some_string))
 some_int = int(some_string)
 print(some_int)
 print(type(some_int))
+
+some_float = float(some_string)
+print(some_float)
+print(type(some_float))
