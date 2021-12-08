@@ -25,3 +25,7 @@ print(numbers_list)
 print(type(numbers_list))
 print(numbers_list[2])
 print(type(numbers_list[2]))
+
+mixed_list = [1, 3.4, "Bob", True]
+print(mixed_list)
+print(type(mixed_list))
