@@ -23,3 +23,5 @@ print(type(some_memoryview))
 numbers_list = [3, 5, 7, 9]
 print(numbers_list)
 print(type(numbers_list))
+print(numbers_list[2])
+print(type(numbers_list[2]))
