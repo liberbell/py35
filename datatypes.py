@@ -14,3 +14,4 @@ print(type(some_boolean))
 
 some_bytes = bytes(10)
 print(some_bytes)
+print(type(some_bytes))
