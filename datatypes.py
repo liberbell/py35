@@ -11,3 +11,6 @@ print(type(some_complex_number))
 
 some_boolean = True
 print(type(some_boolean))
+
+some_bytes = bytes(10)
+print(some_bytes)
