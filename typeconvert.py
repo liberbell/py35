@@ -11,3 +11,7 @@ print(employee_map[1002])
 some_string = "1000"
 print(some_string)
 print(type(some_string))
+
+some_int = int(some_string)
+print(some_int)
+print(type(some_int))
