@@ -44,3 +44,8 @@ print(type(range_of_numbers))
 
 colors = {"blue", "red", "yellow"}
 print(colors)
+print(type(colors))
+
+numbers = {1, 2.4, 7, 9.2}
+print(numbers)
+print(type(numbers))
