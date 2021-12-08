@@ -7,3 +7,7 @@ employee_map = {1001: "Bob", 1002: "Elton", 1003: "Eric"}
 print(employee_map)
 print(type(employee_map))
 print(employee_map[1002])
+
+some_string = "1000"
+print(some_string)
+print(type(some_string))
