@@ -19,3 +19,7 @@ print(type(some_bytes))
 some_memoryview = memoryview(bytes(10))
 print(some_memoryview)
 print(type(some_memoryview))
+
+numbers_list = [3, 5, 7, 9]
+print(numbers_list)
+print(type(numbers_list))
