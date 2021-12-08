@@ -19,3 +19,7 @@ print(type(some_int))
 some_float = float(some_string)
 print(some_float)
 print(type(some_float))
+
+another_string = str(10000)
+print(another_string)
+print(type(another_string))
