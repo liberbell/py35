@@ -26,3 +26,6 @@ you can include 'single quote' and "double quotes"
 within the string
 """
 print(nicely_formatted_string)
+
+some_string = 'That happend to be Jack\'s baseball bat'
+print(some_string)
