@@ -11,6 +11,10 @@ print(string3)
 # lines when encloded in single quote'
 # print(multiline_string)
 
-multiline_string = "Strings cannot span multiple
-lines when encloded in double quote"
+# multiline_string = "Strings cannot span multiple
+# lines when encloded in double quote"
+# print(multiline_string)
+
+multiline_string = """Strings cannot span multiple
+lines when encloded in double quote"""
 print(multiline_string)
