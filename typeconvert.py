@@ -27,3 +27,7 @@ print(type(another_string))
 yet_another_string = str(10000.45)
 print(yet_another_string)
 print(type(yet_another_string))
+
+boolean_string = str(True)
+print(boolean_string)
+print(type(boolean_string))
