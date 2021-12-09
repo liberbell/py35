@@ -32,3 +32,6 @@ print(some_string)
 
 some_string = "That happend to be Jack's baseball bat"
 print(some_string)
+
+another_string = "I assigned the value of that variable to \"red\""
+print(another_string)
