@@ -43,3 +43,6 @@ print('C:\\Users\\Projects')
 
 some_text = "Did you watch the gaem last night\t I stayed up to watch the end!"
 print(some_text)
+
+favorite_sport = "baseball"
+time_spent = 2
