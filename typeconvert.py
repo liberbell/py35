@@ -23,3 +23,7 @@ print(type(some_float))
 another_string = str(10000)
 print(another_string)
 print(type(another_string))
+
+yet_another_string = str(10000.45)
+print(yet_another_string)
+print(type(yet_another_string))
