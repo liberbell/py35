@@ -35,3 +35,6 @@ print(some_string)
 
 another_string = "I assigned the value of that variable to \"red\""
 print(another_string)
+
+another_string = 'I assigned the value of that variable to "red"'
+print(another_string)
