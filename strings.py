@@ -25,3 +25,4 @@ you can format and display your strings nicely in code
 you can include 'single quote' and "double quotes"
 within the string
 """
+print(nicely_formatted_string)
