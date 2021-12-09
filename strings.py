@@ -16,5 +16,5 @@ print(string3)
 # print(multiline_string)
 
 multiline_string = """Strings cannot span multiple
-lines when encloded in double quote"""
+lines when encloded in triple quote"""
 print(multiline_string)
