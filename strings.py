@@ -40,3 +40,6 @@ another_string = 'I assigned the value of that variable to "red"'
 print(another_string)
 
 print('C:\\Users\\Projects')
+
+some_text = "Did you watch the gaem last night\t I stayed up to watch the end!"
+print(some_text)
