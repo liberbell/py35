@@ -47,3 +47,6 @@ print(some_text)
 favorite_sport = "baseball"
 time_spent = 2
 print("I love watching {} on TV - yesterday for {} hours.".format(favorite_sport, time_spent))
+
+favorite_sport = "soccer"
+print("I love watching %s on TV - yesterday for %d hours." % favorite_sport, time_spent)
