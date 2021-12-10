@@ -32,3 +32,5 @@ integers_list = [10, 20, 30, 40, 50]
 print(integers_list)
 integers_list[1] += 100
 print(integers_list)
+
+print(sum(integers_list))
