@@ -5,3 +5,7 @@ print(type(my_list))
 empty_list = list()
 print(empty_list)
 print(type(empty_list))
+
+game_list = ['Badminton', 'Golf', 'Basketball', 'Tennis']
+print(game_list)
+print(type(game_list))
