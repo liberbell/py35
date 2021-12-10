@@ -34,3 +34,7 @@ integers_list[1] += 100
 print(integers_list)
 
 print(sum(integers_list))
+
+float_list = [5.7, 6.5, 90.2, 82.8, 3.5, 8.2]
+print(float_list)
+print(type(float_list))
