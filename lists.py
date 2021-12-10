@@ -16,3 +16,8 @@ boolean_list = [True, False, False, True]
 print(boolean_list)
 print(len(game_list))
 print(len(boolean_list))
+
+mixed_list = ["Bob", "Eric", 22, 1, 4.5, False, True]
+print(mixed_list)
+print(type(mixed_list))
+print(len(mixed_list))
