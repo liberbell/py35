@@ -21,3 +21,7 @@ mixed_list = ["Bob", "Eric", 22, 1, 4.5, False, True]
 print(mixed_list)
 print(type(mixed_list))
 print(len(mixed_list))
+
+print(game_list)
+game_list[0] = "soccer"
+print(game_list)
