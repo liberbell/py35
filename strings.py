@@ -50,3 +50,7 @@ time_spent = 2
 
 favorite_sport = "soccer"
 print("I love watching %s on TV - yesterday for %d hours." % (favorite_sport, time_spent))
+
+favorite_sport = "basketball"
+time_spent = 2.5
+print(f"I love watching {favorite_sport} on TV - yesterday for {time_spent} hours.")
