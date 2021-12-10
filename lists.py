@@ -27,3 +27,8 @@ game_list[0] = "soccer"
 print(game_list)
 game_list[3] = "Table tennis"
 print(game_list)
+
+integers_list = [10, 20, 30, 40, 50]
+print(integers_list)
+integers_list[1] += 100
+print(integers_list)
