@@ -25,3 +25,5 @@ print(len(mixed_list))
 print(game_list)
 game_list[0] = "soccer"
 print(game_list)
+game_list[3] = "Table tennis"
+print(game_list)
