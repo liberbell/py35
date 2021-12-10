@@ -14,4 +14,5 @@ print(game_list[-1], game_list[-2])
 
 boolean_list = [True, False, False, True]
 print(boolean_list)
-print(len(game_list, boolean_list))
+print(len(game_list))
+print(len(boolean_list))
