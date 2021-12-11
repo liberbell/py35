@@ -73,3 +73,4 @@ complite_list = movie_lists + another_movie_list
 print(complite_list)
 
 print("Pacific rim" in complite_list)
+print("avatar" not in complite_list)
