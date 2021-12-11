@@ -53,3 +53,6 @@ print(movie_lists)
 movie_lists.append("The Amazing Spider-Man 2")
 movie_lists.insert(1, "The Legend of Zoro")
 print(movie_lists)
+
+movie_lists.reverse()
+print(movie_lists)
