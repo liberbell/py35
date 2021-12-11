@@ -64,4 +64,4 @@ movie_lists.remove("47 Ronin")
 print(movie_lists)
 
 # movie_lists.remove("pacific rim")
-movie_lists.index("pacific rim")
+print(movie_lists.index("Pacific rim"))
