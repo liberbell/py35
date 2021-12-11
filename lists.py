@@ -51,3 +51,5 @@ movie_lists = ["Avatar", "Pacific rim", "The Golden Compass", "Monsters Universi
 print(movie_lists)
 # movie_lists[5] = "The Amazing Spider-Man 2"
 movie_lists.append("The Amazing Spider-Man 2")
+movie_lists.insert(1, "The Legend of Zoro")
+print(movie_lists)
