@@ -44,3 +44,5 @@ game_list = ['Soccer', 'Golf', 'BasketBall', 'Table tennis', 'Tennis', 'Skating'
 print(game_list)
 print(game_list[0:2])
 print(game_list[1:6:2])
+
+print(game_list[-5:-1])
