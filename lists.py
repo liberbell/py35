@@ -71,3 +71,5 @@ print(another_movie_list)
 
 complite_list = movie_lists + another_movie_list
 print(complite_list)
+
+print("Pacific rim" in complite_list)
