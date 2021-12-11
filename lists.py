@@ -46,3 +46,6 @@ print(game_list[0:2])
 print(game_list[1:6:2])
 
 print(game_list[-5:-1])
+
+movie_lists = ["Avatar", "Pacific rim", "The Golden Compass", "Monsters University", "X-Men: The Last Stand"]
+print(movie_lists)
