@@ -49,4 +49,5 @@ print(game_list[-5:-1])
 
 movie_lists = ["Avatar", "Pacific rim", "The Golden Compass", "Monsters University", "X-Men: The Last Stand"]
 print(movie_lists)
-movie_lists[5] = "The Amazing Spider-Man 2"
+# movie_lists[5] = "The Amazing Spider-Man 2"
+movie_lists.append("The Amazing Spider-Man 2")
