@@ -68,3 +68,6 @@ print(movie_lists.index("Pacific rim"))
 
 another_movie_list = list(("The Lone Ranger", "Alice in Wonderland"))
 print(another_movie_list)
+
+complite_list = movie_lists + another_movie_list
+print(complite_list)
