@@ -65,3 +65,6 @@ print(movie_lists)
 
 # movie_lists.remove("pacific rim")
 print(movie_lists.index("Pacific rim"))
+
+another_movie_list = list(("The Lone Ranger", "Alice in Wonderland"))
+print(another_movie_list)
