@@ -56,3 +56,6 @@ print(movie_lists)
 
 movie_lists.reverse()
 print(movie_lists)
+
+movie_lists.extend("King Kong", "Evan Almighty", "47 Ronin")
+print(movie_lists)
