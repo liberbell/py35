@@ -8,4 +8,7 @@ name_set = {"Bob", "Eric", "George", "Elton", "Ed", "Frank"}
 print(name_set)
 
 mixed_set = {10.3, 1, "George", True}
-print(mixed_set, type(mixed_set))
+print(mixed_set)
+
+mixed_set = {"George", True}
+print(mixed_set)
