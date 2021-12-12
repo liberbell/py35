@@ -10,5 +10,5 @@ print(name_set)
 mixed_set = {10.3, 1, "George", True}
 print(mixed_set)
 
-mixed_set = {"George", True}
+mixed_set = {"George", 10, 50.5, True}
 print(mixed_set)
