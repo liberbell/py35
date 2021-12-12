@@ -13,3 +13,6 @@ print(len(float_tuple))
 
 game_list = ["Badminton", "Golf", "Basketball", "Tennis"]
 print(game_list, type(game_list))
+
+game_tuple = tuple(game_list)
+print(game_tuple, type(game_tuple))
