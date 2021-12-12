@@ -7,3 +7,4 @@ print(name_length)
 print(name[name_length - 1])
 
 a, b, c, d, e, f, g, h, i, j = name
+print(a)
