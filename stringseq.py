@@ -10,3 +10,5 @@ a, b, c, d, e, f, g, h, i, j = name
 print(a)
 
 # a, b, c, d, e = name
+print(name.lower())
+print(name.upper())
