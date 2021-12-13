@@ -27,4 +27,7 @@ my_employee.pop("Eric")
 print(my_employee)
 
 print(my_employee.keys())
-print(len(my_employee))
+print(len(my_employee)) 
+
+for i, v in range range(my_employee):
+    print(i, v)
