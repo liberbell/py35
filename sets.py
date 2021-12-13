@@ -15,3 +15,6 @@ print(mixed_set)
 
 another_mixed_set = {"Eric", 10, 10.5, True, (1, 2, 3)}
 print(another_mixed_set)
+
+another_mixed_set = {"Eric", 10, 10.5, True, [1, 2, 3]}
+print(another_mixed_set)
