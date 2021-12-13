@@ -7,3 +7,4 @@ my_employee = {"Bob": 4000,
                "Jhon": 5500}
 
 print(my_employee)
+print(my_employee["Alex"])
