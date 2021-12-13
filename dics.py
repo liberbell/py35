@@ -8,3 +8,5 @@ my_employee = {"Bob": 4000,
 
 print(my_employee)
 print(my_employee["Alex"])
+my_employee["Eric"] = 6000
+print(my_employee)
