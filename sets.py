@@ -26,3 +26,6 @@ laptop_set.add("Genepac")
 print(laptop_set.add("Apple"))
 laptop_set.discard("Dell")
 print(laptop_set)
+
+laptop_set.remove("Lenovo")
+laptop_set.remove("Lenovo")
