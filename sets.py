@@ -28,7 +28,7 @@ laptop_set.discard("Dell")
 print(laptop_set)
 
 laptop_set.remove("Lenovo")
-laptop_set.remove("Lenovo")
+# laptop_set.remove("Lenovo")
 
 student_set1 = {"Eric", "Bob"}
 student_set2 = {"George", "Jhon"}
