@@ -29,3 +29,9 @@ print(laptop_set)
 
 laptop_set.remove("Lenovo")
 laptop_set.remove("Lenovo")
+
+student_set1 = {"Eric", "Bob"}
+student_set2 = {"George", "Jhon"}
+student_set3 = {"Ed", "Alex"}
+student_set1.union(student_set2)
+print(student_set1)
