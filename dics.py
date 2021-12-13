@@ -18,3 +18,6 @@ print(my_employee)
 
 dictionary_with_int_keys = {1: "Bob", 2: "George", 3: "Elton", 4: "Ed"}
 print(dictionary_with_int_keys)
+
+dictionary_with_float_keys = {1.1: "Bob", 1.2: "George", 1.3: "Elton", 1.4: "Ed"}
+print(dictionary_with_float_keys)
