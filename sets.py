@@ -45,3 +45,5 @@ print({10, 20, 30}.issuperset({10, 20}))
 name_list = {"Eric", "Bob", "George", "Alex", "Ed", "Jhon"}
 name_tuple = ("Eric", "Bob", "George", "Alex", "Ed", "Jhon")
 print(name_list, name_tuple)
+name_list_to_set = set(name_list)
+print(name_list_to_set)
