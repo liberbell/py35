@@ -34,3 +34,4 @@ for i in d.values():
     print(i)
     
 print(my_employee.items())
+print("Bob" in my_employee.keys())
