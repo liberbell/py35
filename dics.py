@@ -32,3 +32,5 @@ print(len(my_employee))
 d = my_employee
 for i in d.values():
     print(i)
+    
+print(my_employee.items())
