@@ -10,3 +10,5 @@ print(my_employee)
 print(my_employee["Alex"])
 my_employee["Eric"] = 6000
 print(my_employee)
+my_employee["Eric"] *=2
+print(my_employee)
