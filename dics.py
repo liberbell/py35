@@ -29,5 +29,6 @@ print(my_employee)
 print(my_employee.keys())
 print(len(my_employee)) 
 
-for i, v in range range(my_employee):
-    print(i, v)
+d = my_employee
+for i in d:
+    print(i)
