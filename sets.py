@@ -22,5 +22,7 @@ print(another_mixed_set)
 laptop_set = {"HP", "Apple", "Dell", "MSI", "TOSHIBA", "Lenovo", "ASUS"}
 print(laptop_set)
 
+laptop_set.add("Genepac")
 print(laptop_set.add("Apple"))
 laptop_set.discard("Dell")
+print(laptop_set)
