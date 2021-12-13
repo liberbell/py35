@@ -41,3 +41,7 @@ print(student_set1.difference(student_set3))
 print({1, 2, 3}.isdisjoint({4, 5, 6}))
 print({10, 20}.issubset({10, 20, 30}))
 print({10, 20, 30}.issuperset({10, 20}))
+
+name_list = {"Eric", "Bob", "George", "Alex", "Ed", "Jhon"}
+name_tuple = ("Eric", "Bob", "George", "Alex", "Ed", "Jhon")
+print(name_list, name_tuple)
