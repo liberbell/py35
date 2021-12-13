@@ -15,3 +15,6 @@ print(my_employee)
 
 del my_employee["Jhon"]
 print(my_employee)
+
+dictionary_with_int_keys = {1: "Bob", 2: "George", 3: "Elton", 4: "Ed"}
+print(dictionary_with_int_keys)
