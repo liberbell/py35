@@ -25,3 +25,6 @@ print(dictionary_with_float_keys)
 print(my_employee)
 my_employee.pop("Eric")
 print(my_employee)
+
+print(my_employee.keys())
+print(len(my_employee))
