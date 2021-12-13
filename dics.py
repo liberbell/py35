@@ -30,5 +30,5 @@ print(my_employee.keys())
 print(len(my_employee)) 
 
 d = my_employee
-for i in d:
+for i in d.values():
     print(i)
