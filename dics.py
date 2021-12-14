@@ -39,3 +39,4 @@ print(2500 in my_employee.values())
 
 mixed_dics = {False: "Hello", "Hi": [1, 2, 3], "Good Morning": True}
 print(mixed_dics)
+print(type(mixed_dics))
