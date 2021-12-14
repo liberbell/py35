@@ -36,3 +36,6 @@ for i in d.values():
 print(my_employee.items())
 print("Bob" in my_employee.keys())
 print(2500 in my_employee.values())
+
+mixed_dics = {False: "Hello", "Hi": [1, 2, 3], "Good Morning": True}
+print(mixed_dics)
