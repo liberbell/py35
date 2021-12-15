@@ -17,3 +17,7 @@ print("Copy:   :", first_copy)
 
 first_person = ["Bob", ["1394 West Zenith St", "Massachusetts"]]
 print(first_person)
+
+second_person = first_person.copy()
+second_person[0] = "Eric"
+print(second_person)
