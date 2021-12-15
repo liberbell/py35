@@ -62,3 +62,7 @@ print("copied  : ", ice_cream_tuple_copy)
 
 colors_set = {'blue', 'red', 'orange', 'yellow', 'pink'}
 print(colors_set)
+
+colors_set_copy = colors_set
+print("original: ", colors_set)
+print("copied  : ", colors_set_copy)
