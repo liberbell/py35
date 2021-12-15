@@ -21,3 +21,7 @@ print(first_person)
 second_person = first_person.copy()
 second_person[0] = "Eric"
 print(second_person)
+
+second_person[1][0] = "Brookline Avenue"
+second_person[1][1] = "Washington"
+print(second_person)
