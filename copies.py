@@ -70,3 +70,7 @@ print("copied  : ", colors_set_copy)
 colors_set_copy.remove('red')
 print("original: ", colors_set)
 print("copied  : ", colors_set_copy)
+
+colors_set_copy.add('magenta')
+print("original: ", colors_set)
+print("copied  : ", colors_set_copy)
