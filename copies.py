@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 first_list = ["apple", "plum", "mango", "guava", "peer"]
 print(first_list)
 
@@ -26,3 +28,5 @@ second_person[1][0] = "Brookline Avenue"
 second_person[1][1] = "Washington"
 print("First : ", first_person)
 print("Second: ", second_person)
+
+first_person = ["Bob", ["1394 West Zenith St", "Massachusetts"]]
