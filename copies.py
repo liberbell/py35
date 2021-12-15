@@ -41,3 +41,7 @@ print("Second: ", second_person)
 
 ice_cream_tuple = ("Vanilla", ["Chocolate", "Vanilla"], "Strawberry", "Blueberry")
 print(ice_cream_tuple)
+
+ice_cream_tuple_copy = ice_cream_tuple
+print("original: ", ice_cream_tuple)
+print("copied  : ", ice_cream_tuple_copy)
