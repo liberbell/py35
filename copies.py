@@ -24,4 +24,5 @@ print(second_person)
 
 second_person[1][0] = "Brookline Avenue"
 second_person[1][1] = "Washington"
-print(second_person)
+print("First : ", first_person)
+print("Second: ", second_person)
