@@ -30,3 +30,6 @@ print("First : ", first_person)
 print("Second: ", second_person)
 
 first_person = ["Bob", ["1394 West Zenith St", "Massachusetts"]]
+second_person = deepcopy(first_person)
+print("First : ", first_person)
+print("Second: ", second_person)
