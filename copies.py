@@ -45,3 +45,7 @@ print(ice_cream_tuple)
 ice_cream_tuple_copy = ice_cream_tuple
 print("original: ", ice_cream_tuple)
 print("copied  : ", ice_cream_tuple_copy)
+
+ice_cream_tuple_copy[1][0] = "Butterscotch"
+print("original: ", ice_cream_tuple)
+print("copied  : ", ice_cream_tuple_copy)
