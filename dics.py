@@ -51,3 +51,6 @@ print(calories)
 
 calories["Burger"] = 550
 print(calories)
+
+update_calories = {"Shake": 600, "Juice": 200}
+print(update_calories)
