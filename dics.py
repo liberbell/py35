@@ -41,3 +41,10 @@ mixed_dics = {False: "Hello", "Hi": [1, 2, 3], "Good Morning": True}
 print(mixed_dics)
 print(type(mixed_dics))
 print(mixed_dics[False])
+print(mixed_dics.keys())
+
+calories = {}
+calories["Burger"] = 500
+calories["Fries"] = 300
+calories["Shake"] = 400
+print(calories)
