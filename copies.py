@@ -3,3 +3,7 @@ print(first_list)
 
 first_copy = first_list
 print(first_copy)
+
+first_list.remove("mango")
+print(first_list)
+print(first_copy)
