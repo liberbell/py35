@@ -54,3 +54,7 @@ ice_cream_tuple = ("Vanilla", ["Chocolate", "Vanilla"], "Strawberry", "Blueberry
 # ice_cream_tuple_copy = ice_cream_tuple.copy()
 # print("original: ", ice_cream_tuple)
 # print("copied  : ", ice_cream_tuple_copy)
+
+ice_cream_tuple_copy = deepcopy(ice_cream_tuple)
+print("original: ", ice_cream_tuple)
+print("copied  : ", ice_cream_tuple_copy)
