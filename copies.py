@@ -59,3 +59,6 @@ ice_cream_tuple_copy = deepcopy(ice_cream_tuple)
 ice_cream_tuple_copy[1][0] = "Butterscotch"
 print("original: ", ice_cream_tuple)
 print("copied  : ", ice_cream_tuple_copy)
+
+colors_set = {'blue', 'red', 'orange', 'yellow', 'pink'}
+print(colors_set)
