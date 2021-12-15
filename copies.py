@@ -38,3 +38,6 @@ second_person[0] = "Eric"
 second_person[1][0] = "Brookline Avenue"
 print("First : ", first_person)
 print("Second: ", second_person)
+
+ice_cream_tuple = ("Vanilla", ["Chocolate", "Vanilla"], "Strawberry", "Blueberry")
+print(ice_cream_tuple)
