@@ -10,3 +10,7 @@ print("Copy:   :", first_copy)
 
 first_copy = first_list.copy()
 print(first_copy)
+
+first_list[0] = "pinapple"
+print("Original:", first_list)
+print("Copy:   :", first_copy)
