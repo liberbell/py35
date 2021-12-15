@@ -5,5 +5,5 @@ first_copy = first_list
 print(first_copy)
 
 first_list.remove("mango")
-print(first_list)
-print(first_copy)
+print("Original:", first_list)
+print("Copy:   :", first_copy)
