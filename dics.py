@@ -54,3 +54,6 @@ print(calories)
 
 update_calories = {"Shake": 600, "Juice": 200}
 print(update_calories)
+
+calories.update(update_calories)
+print(calories)
