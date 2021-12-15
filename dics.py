@@ -48,3 +48,6 @@ calories["Burger"] = 500
 calories["Fries"] = 300
 calories["Shake"] = 400
 print(calories)
+
+calories["Burger"] = 550
+print(calories)
