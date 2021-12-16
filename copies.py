@@ -87,3 +87,5 @@ project_language = {1000: "Python",
 print(project_language)
 project_language_copy = project_language
 print(project_language_copy[4000])
+print("original: ", project_language)
+print("copied  : ", project_language_copy)
