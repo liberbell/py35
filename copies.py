@@ -85,7 +85,7 @@ project_language = {1000: "Python",
                     4000: "Golang"}
 
 print(project_language)
-project_language_copy = project_language
+project_language_copy = project_language.copy()
 print(project_language_copy[4000])
 project_language_copy[4000] = "C#"
 print("original: ", project_language)
