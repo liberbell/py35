@@ -13,7 +13,12 @@ print(tax_rate)
 del tax_rate
 # print(tax_rate)
 
-gross_salary = 400000
-if gross_salary >= 500000:
-    tax_rate = 30
-print(tax_rate)
+# gross_salary = 400000
+# if gross_salary >= 500000:
+#     tax_rate = 30
+# print(tax_rate)
+
+names_list = ["Bob", "George", "Eric", "Alex", "Elton"]
+if "Bob" in names_list:
+    names_list.append("Edo")
+    print("Bob was present in name list")
