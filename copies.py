@@ -101,3 +101,9 @@ project_language = {1000: "Python",
                     4000: "Golang"}
 
 project_language_copy = deepcopy(project_language)
+project_language_copy[4000] = "C#"
+print("original: ", project_language)
+print("copied  : ", project_language_copy)
+project_language_copy[2000][0] = "Scala"
+print("original: ", project_language)
+print("copied  : ", project_language_copy)
