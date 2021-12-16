@@ -90,3 +90,7 @@ print(project_language_copy[4000])
 project_language_copy[4000] = "C#"
 print("original: ", project_language)
 print("copied  : ", project_language_copy)
+
+project_language_copy[2000][0] = "Scala"
+print("original: ", project_language)
+print("copied  : ", project_language_copy)
