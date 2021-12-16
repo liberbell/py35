@@ -25,4 +25,6 @@ if "Bob" in names_list:
 print(names_list)
 
 employee_salaris = {"Bob": 34000,
-                    "George": 35000,}
+                    "George": 35000,
+                    "Eric": 40000,
+                    "Alex": 32000}
