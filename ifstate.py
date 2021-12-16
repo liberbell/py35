@@ -9,3 +9,4 @@ if 1000 > 100:
 gross_salary = 500000
 if gross_salary >= 50000:
     tax_rate = 30
+print(tax_rate)
