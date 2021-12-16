@@ -22,3 +22,7 @@ names_list = ["Bob", "George", "Eric", "Alex", "Elton"]
 if "Bob" in names_list:
     names_list.append("Edo")
     print("Bob was present in name list")
+print(names_list)
+
+employee_salaris = {"Bob": 34000,
+                    "George": 35000,}
