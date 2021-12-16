@@ -71,10 +71,17 @@ colors_set_copy.remove('red')
 print("original: ", colors_set)
 print("copied  : ", colors_set_copy)
 
-colors_set_copy.add('magenta')
-print("original: ", colors_set)
-print("copied  : ", colors_set_copy)
+# colors_set_copy.add('magenta')
+# print("original: ", colors_set)
+# print("copied  : ", colors_set_copy)
 
-colors_set = {'blue', 'red', ('orange', 'yellow'), 'pink'}
-print(colors_set_copy)
-print(colors_set_copy[2][1])
+# colors_set = {'blue', 'red', ('orange', 'yellow'), 'pink'}
+# print(colors_set_copy)
+# print(colors_set_copy[2][1])
+
+project_language = {1000: "Python",
+                    2000: ["Java", "C#"],
+                    3000: "Javascript",
+                    4000: "Golang"}
+
+print(project_language)
