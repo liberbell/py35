@@ -51,3 +51,8 @@ if 20 <=100:
     
 if not (20 <= 100):
     print("not of a True condition is False")
+    
+student_score = int(input("Please enter your score: "))
+
+if student_score  > 45:
+    print("You`ve passed your exam!")
