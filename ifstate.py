@@ -26,7 +26,7 @@ print(names_list)
 
 employee_salaris = {"Bob": 34000,
                     "George": 35000,
-                    "Eric": 49000,
+                    "Eric": 39000,
                     "Alex": 32000}
 print(employee_salaris)
 
