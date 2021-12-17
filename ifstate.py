@@ -26,7 +26,7 @@ print(names_list)
 
 employee_salaris = {"Bob": 34000,
                     "George": 35000,
-                    "Eric": 41000,
+                    "Eric": 49000,
                     "Alex": 32000}
 print(employee_salaris)
 
@@ -39,5 +39,6 @@ if "Elton" in employee_salaris.keys():
     
 if employee_salaris["Eric"] > 30000 and employee_salaris["Eric"] < 40000:
     print("Eric`s original sarary: ", employee_salaris["Eric"])
+    print("log")
     employee_salaris["Eric"] = employee_salaris["Eric"] * 1.1
     print("Eric`s update salary: ", employee_salaris["Eric"])
