@@ -48,3 +48,6 @@ if ("Eric" in names_list) or ("Ray" in names_list):
     
 if 20 <=100:
     print("20 is less than or equal to 100")
+    
+if not (20 <= 100):
+    print("not of a True condition is False")
