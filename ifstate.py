@@ -56,3 +56,6 @@ student_score = int(input("Please enter your score: "))
 
 if student_score  > 45:
     print("You`ve passed your exam!")
+    print("If block executed.")
+else:
+    print("You`ve failed your exam!")
