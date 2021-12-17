@@ -45,3 +45,6 @@ if employee_salaris["Eric"] > 30000 and employee_salaris["Eric"] < 40000:
 print(names_list)
 if ("Eric" in names_list) or ("Ray" in names_list):
     print("we found either Eric or Ray in the name list.")
+    
+if 20 <=100:
+    print("20 is less than or equal to 100")
