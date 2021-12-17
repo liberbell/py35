@@ -39,6 +39,9 @@ if "Elton" in employee_salaris.keys():
     
 if employee_salaris["Eric"] > 30000 and employee_salaris["Eric"] < 40000:
     print("Eric`s original sarary: ", employee_salaris["Eric"])
-    print("log")
+    # print("log")
     employee_salaris["Eric"] = employee_salaris["Eric"] * 1.1
     print("Eric`s update salary: ", employee_salaris["Eric"])
+print(names_list)
+if ("Eric" in names_list) or ("Ray" in names_list):
+    print("we found either Eric or Ray in the name list.")
