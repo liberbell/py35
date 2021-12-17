@@ -28,3 +28,9 @@ employee_salaris = {"Bob": 34000,
                     "George": 35000,
                     "Eric": 40000,
                     "Alex": 32000}
+print(employee_salaris)
+
+if "Elton" not in employee_salaris:
+    employee_salaris["Elton"] = 46000
+
+print(employee_salaris)
