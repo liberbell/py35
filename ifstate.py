@@ -52,14 +52,14 @@ if 20 <=100:
 if not (20 <= 100):
     print("not of a True condition is False")
     
-student_score = int(input("Please enter your score: "))
+# student_score = int(input("Please enter your score: "))
 
-if student_score  > 45:
-    print("You`ve passed your exam!")
-    print("If block executed.")
-else:
-    print("You`ve failed your exam!")
-    print("Else block executed.")
+# if student_score  > 45:
+#     print("You`ve passed your exam!")
+#     print("If block executed.")
+# else:
+#     print("You`ve failed your exam!")
+#     print("Else block executed.")
     
 num = 50
 print("num before expression: ", num)
