@@ -90,3 +90,6 @@ print("This is outside the if-elif-else blocks.")
 
 item_ordered = int(input("Please enter how many items were orderd: "))
 item_inventory = int(input("Please enter how many items are present in your inventory: "))
+
+if (item_ordered > item_inventory):
+    print("I am afraid we do not have these many items in stock")
