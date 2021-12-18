@@ -71,22 +71,22 @@ print("Number before expression: ", num)
 num = num / 5 if num < 50 else num * 5
 print("Number after exression: ", num)
 
-student_score = int(input("Please enter your score: "))
+# student_score = int(input("Please enter your score: "))
 
-if student_score  > 85:
-    print("Your grade is A")
-    print("You`ve passed your exam!")
-    print("If block executed.")
-elif student_score > 65:
-    print("Your grade is B")
-    print("First elif block execute.")
-elif student_score > 50:
-    print("Your score is C")
-    print("Second elif block execute.")
-else:
-    print("You`ve failed your exam!")
-    print("Else block executed.")
-print("This is outside the if-elif-else blocks.")
+# if student_score  > 85:
+#     print("Your grade is A")
+#     print("You`ve passed your exam!")
+#     print("If block executed.")
+# elif student_score > 65:
+#     print("Your grade is B")
+#     print("First elif block execute.")
+# elif student_score > 50:
+#     print("Your score is C")
+#     print("Second elif block execute.")
+# else:
+#     print("You`ve failed your exam!")
+#     print("Else block executed.")
+# print("This is outside the if-elif-else blocks.")
 
 item_ordered = int(input("Please enter how many items were orderd: "))
 item_inventory = int(input("Please enter how many items are present in your inventory: "))
