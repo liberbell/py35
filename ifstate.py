@@ -87,3 +87,6 @@ else:
     print("You`ve failed your exam!")
     print("Else block executed.")
 print("This is outside the if-elif-else blocks.")
+
+item_ordered = int(input("Please enter how many items were orderd: "))
+item_inventory = int(input("Please enter how many items are present in your inventory: "))
