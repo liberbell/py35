@@ -60,3 +60,8 @@ if student_score  > 45:
 else:
     print("You`ve failed your exam!")
     print("Else block executed.")
+    
+num = 50
+print("num before expression: ", num)
+num = num - 20 if num > 20 else num + 20
+print("num after expression: ", num)
