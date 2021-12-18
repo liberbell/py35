@@ -10,3 +10,9 @@ for char in var_string:
     
 for digits in "20":
     print(digits)
+    
+# for digits in 10:
+#     print(digits)
+
+for company in "Google", "Microsoft", "Apple", "Meta", "Oracle", "Amazon":
+    print(company)
