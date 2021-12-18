@@ -98,3 +98,6 @@ elif (item_ordered <= item_inventory):
         print("Yoy're lucky, we have exactly the number of items you need.")
     else:
         print("We have the number of items you need.")
+    item_inventory -= item_ordered
+    if (item_inventory < 2):
+        print("Time to reorder these items.")
