@@ -16,3 +16,7 @@ for digits in "20":
 
 for company in "Google", "Microsoft", "Apple", "Meta", "Oracle", "Amazon":
     print(company)
+    
+cats = ("Snowshoe", "Calico", "British Shorthair", "Siamese", "Persian")
+for cat in cats:
+    print(cat)
