@@ -7,3 +7,6 @@ for letters in "Welcome":
 var_string = "Welcome to New York"
 for char in var_string:
     print(char)
+    
+for digits in "20":
+    print(digits)
