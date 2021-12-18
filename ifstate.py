@@ -86,3 +86,4 @@ elif student_score > 50:
 else:
     print("You`ve failed your exam!")
     print("Else block executed.")
+print("This is outside the if-elif-else blocks.")
