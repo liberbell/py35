@@ -95,4 +95,6 @@ if (item_ordered > item_inventory):
     print("I am afraid we do not have these many items in stock.")
 elif (item_ordered <= item_inventory):
     if (item_ordered == item_inventory):
-        print("Yoy're lucky, we have exactly the number of items in stock.")
+        print("Yoy're lucky, we have exactly the number of items you need.")
+    else:
+        print("We have the number of items you need.")
