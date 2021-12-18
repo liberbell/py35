@@ -65,3 +65,8 @@ num = 50
 print("num before expression: ", num)
 num = num - 20 if num > 20 else num + 20
 print("num after expression: ", num)
+
+num = 100
+print("Number before expression: ", num)
+num = num / 5 if num < 50 else num * 5
+print("Number after exression: ", num)
