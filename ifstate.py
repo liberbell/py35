@@ -59,3 +59,4 @@ if student_score  > 45:
     print("If block executed.")
 else:
     print("You`ve failed your exam!")
+    print("Else block executed.")
