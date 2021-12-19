@@ -40,5 +40,9 @@ price_history = [
     {"ticker": "AAPL", "close price": 150.00, "volume": 2000000, "data": "2021-12-16"},
 ]
 
+# for price_data in price_history:
+#     print(price_data)
+    
 for price_data in price_history:
-    print(price_data)
+    if price_data['close price'] >= 149:
+        print(price_data)
