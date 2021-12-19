@@ -29,4 +29,7 @@ cats_weight = [("Snowshoe", 15),
                ("Calico", 20),
                ("Persian", 12)]
 for cat, weight in cats_weight:
-    print("Cat is %s and it weghts %s pounds." % (cat, weight))
+    print("Cat is %s and it weights %s pounds." % (cat, weight))
+    
+for i, (cat, weight) in enumerate(cats_weight):
+    print("Cat at index %d is a %s and it weights %s pounds." % (i, cat, weight))
