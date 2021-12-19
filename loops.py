@@ -67,3 +67,5 @@ for score in game_scores.values():
 characters = {"a", "b", "c", "d"}
 for letter in characters:
     print(letter)
+else:
+    print("no character left.")
