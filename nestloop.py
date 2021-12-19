@@ -22,3 +22,5 @@ print(some_range)
 print(tuple(some_range))
 
 print(list(range(-5, 5)))
+for i in range(5):
+    print(i)
