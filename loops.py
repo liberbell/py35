@@ -20,3 +20,7 @@ for company in "Google", "Microsoft", "Apple", "Meta", "Oracle", "Amazon":
 cats = ("Snowshoe", "Calico", "British Shorthair", "Siamese", "Persian")
 for cat in cats:
     print("It`s a ", cat)
+    
+cats = ["Snowshoe", "Calico", "British Shorthair", "Siamese", "Persian"]
+for cat in cats:
+    print("It`s a ", cat)
