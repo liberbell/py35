@@ -58,3 +58,5 @@ print(game_scores.items())
 
 for name in game_scores.keys():
     print(name)
+for name in game_scores:
+    print(name)
