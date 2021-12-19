@@ -33,3 +33,9 @@ for cat, weight in cats_weight:
     
 for i, (cat, weight) in enumerate(cats_weight):
     print("Cat at index %d is a %s and it weights %s pounds." % (i, cat, weight))
+    
+price_history = [
+    {"ticker": "AAPL", "close price": 148.00, "volume": 2000000, "data": "2021-12-14"},
+    {"ticker": "AAPL", "close price": 149.00, "volume": 2000000, "data": "2021-12-15"},
+    {"ticker": "AAPL", "close price": 150.00, "volume": 2000000, "data": "2021-12-16"},
+]
