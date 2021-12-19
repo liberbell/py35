@@ -11,5 +11,5 @@ for sublist in names:
 color_list = ["Red", "Green", "Blue"]
 object_list = ["Pen", "Marker", "Pencil"]
 for color in color_list:
-    for object in object_list:
-        print(color, object)
+    for obj in object_list:
+        print(color, obj)
