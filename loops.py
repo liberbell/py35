@@ -29,4 +29,4 @@ cats_weight = [("Snowshoe", 15),
                ("Calico", 20),
                ("Persian", 12)]
 for cat, weight in cats_weight:
-    print("Cat is %s and it weghts %s pounds.", % (cat, weight))
+    print("Cat is %s and it weghts %s pounds." % (cat, weight))
