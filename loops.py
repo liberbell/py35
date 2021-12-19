@@ -71,3 +71,6 @@ else:
     print("no character left.")
 
 years = [2016, 2017, 2018, 2019, 2020, 2021]
+for year in years:
+    if year % 4 == 0:
+        print(year, "is a leap year")
