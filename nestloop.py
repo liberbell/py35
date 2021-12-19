@@ -20,3 +20,5 @@ for color in color_list:
 some_range = range(20)
 print(some_range)
 print(tuple(some_range))
+
+print(list(range(-5, 5)))
