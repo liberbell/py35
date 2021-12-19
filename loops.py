@@ -19,4 +19,4 @@ for company in "Google", "Microsoft", "Apple", "Meta", "Oracle", "Amazon":
     
 cats = ("Snowshoe", "Calico", "British Shorthair", "Siamese", "Persian")
 for cat in cats:
-    print(cat)
+    print("It`s a " cat)
