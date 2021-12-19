@@ -63,3 +63,7 @@ for name in game_scores:
     
 for score in game_scores.values():
     print(score)
+
+characters = {"a", "b", "c", "d"}
+for letter in characters:
+    print(letter)
