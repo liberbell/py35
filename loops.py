@@ -46,3 +46,9 @@ price_history = [
 for price_data in price_history:
     if price_data['close price'] >= 149:
         print(price_data)
+        
+game_scores = {'Bob': 9,
+               'Alex': 6,
+               'Eric': 8,
+               'Ed', 10}
+print(game_scores)
