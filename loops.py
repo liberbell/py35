@@ -53,3 +53,4 @@ game_scores = {'Bob': 9,
                'Ed': 10}
 print(game_scores)
 print(game_scores.keys())
+print(game_scores.values())
