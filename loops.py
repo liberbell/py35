@@ -60,3 +60,6 @@ for name in game_scores.keys():
     print(name)
 for name in game_scores:
     print(name)
+    
+for score in game_scores.values():
+    print(score)
