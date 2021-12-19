@@ -50,5 +50,5 @@ for price_data in price_history:
 game_scores = {'Bob': 9,
                'Alex': 6,
                'Eric': 8,
-               'Ed', 10}
+               'Ed': 10}
 print(game_scores)
