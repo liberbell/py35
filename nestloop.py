@@ -32,6 +32,7 @@ print("\n")
 
 for i in range(-15, +15, 4):
     print(i, end=" ")
+print("\n")
 
 my_list = []
 for i in range(0, 20):
