@@ -27,3 +27,8 @@ for i in range(5):
 
 for i in range(0, 30, 3):
     print(i, end=" ")
+
+print("\n")
+
+for i in range(-15, +15, 4):
+    print(i, end=" ")
