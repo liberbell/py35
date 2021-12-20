@@ -27,3 +27,6 @@ while invalid_num:
 
     if num > 100 and num < 300:
         invalid_num = False
+    else:
+        print("Sorry the number is not valid")
+        print("Please try again")
