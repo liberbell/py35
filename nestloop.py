@@ -42,3 +42,9 @@ print(my_list)
 
 for my_num in range(1, 7):
     print(my_num, "cube is", my_num ** 3)
+
+my_list = []
+for i in range(5, 20):
+    if (i % 2 or i % 4 == 0):
+        my_list.append(i)
+print(my_list)
