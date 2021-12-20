@@ -6,3 +6,8 @@ num = 7
 while num <= 10:
     print(num)
     num += 1
+
+num = 7
+while num => 0:
+    print(num)
+    num -= 1
