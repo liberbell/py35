@@ -24,3 +24,6 @@ print(tuple(some_range))
 print(list(range(-5, 5)))
 for i in range(5):
     print(i)
+
+for i in range(0, 30, 3):
+    print(i, end=" ")
