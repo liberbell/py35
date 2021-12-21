@@ -21,15 +21,21 @@ while i <= sum_upto:
 
 print(f"Computed sum upto {sum_upto} and the result is {total}")
 
-invalid_num = True
-while invalid_num:
-    num = int(input("Enter a number in the range between 100 to 300:"))
+# invalid_num = True
+# while invalid_num:
+#     num = int(input("Enter a number in the range between 100 to 300:"))
 
-    if num >= 100 and num <= 300:
-        invalid_num = False
-    else:
-        print("Sorry the number is not valid")
-        print("Please try again")
+#     if num >= 100 and num <= 300:
+#         invalid_num = False
+#     else:
+#         print("Sorry the number is not valid")
+#         print("Please try again")
 
-print("Valid number is :", num)
-print("We will only get here when we enter a valid number.")
+# print("Valid number is :", num)
+# print("We will only get here when we enter a valid number.")
+
+current_num = 0
+count = 0
+total = 0
+while current_num >= 0:
+    current_num = int(input("Enter any number: "))
