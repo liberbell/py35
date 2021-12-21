@@ -43,3 +43,6 @@ while current_num >= 0:
     if current_num >= 0:
         count = count + 1
         total = total + current_num
+
+average = total / count
+print("Number input: ", count, "Average: ", average)
