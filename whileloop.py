@@ -46,3 +46,6 @@ while current_num >= 0:
 
 average = total / count
 print("Number input: ", count, "Average: ", average)
+
+num_list = [100, 200, 300, 400, 500]
+count = 0
