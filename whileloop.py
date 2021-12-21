@@ -39,3 +39,7 @@ count = 0
 total = 0
 while current_num >= 0:
     current_num = int(input("Enter any number: "))
+
+    if current_num >= 0:
+        count = count + 1
+        total = total + current_num
