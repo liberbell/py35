@@ -49,3 +49,7 @@ print("Number input: ", count, "Average: ", average)
 
 num_list = [100, 200, 300, 400, 500]
 count = 0
+while count < len(num_list):
+    count = count + 1
+
+print("There are %d elements in the list." % count)
