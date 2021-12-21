@@ -30,3 +30,5 @@ while invalid_num:
     else:
         print("Sorry the number is not valid")
         print("Please try again")
+
+print("Valid number is :", num)
