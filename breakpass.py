@@ -38,11 +38,19 @@
 #     print(pet)
 
 
-for letter in "James Bond":
-    if letter in ["a", "i", "u", "e", "o"]:
-        pass
-        print("We are in the pass block")
-    else:
-        print(letter)
+# for letter in "James Bond":
+#     if letter in ["a", "i", "u", "e", "o"]:
+#         pass
+#         print("We are in the pass block")
+#     else:
+#         print(letter)
 
-print("Finally done")
+# print("Finally done")
+
+for i in range(1, 8):
+    print(i)
+    if i > 4:
+        pass
+    else:
+        print("hello")
+    print("Complete iteration.")
