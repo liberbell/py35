@@ -36,3 +36,9 @@ for pet in dogs:
     if pet == "Bulldog":
         break
     print(pet)
+
+
+for letter in "James Bond":
+    if letter in ["a", "i", "u", "e", "o"]:
+        pass
+        print("We are in the pass block")
