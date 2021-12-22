@@ -53,4 +53,4 @@ for i in range(1, 8):
         pass
     else:
         print("hello")
-    print("Complete iteration.")
+    print("Complete iteration.", i)
