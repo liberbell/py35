@@ -21,4 +21,4 @@ for place in places:
         print("The burglar has been captured!")
         break
 else:
-    print("")
+    print("The burglar got away...")
