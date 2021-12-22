@@ -25,6 +25,6 @@ for num in [3, 11, 22, 35, 90]:
 
 letters = "James Bond"
 for letter in letters:
+    print(letter)
     if letter in ["a", "i", "u", "e", "o"]:
         continue
-    print(letter)
