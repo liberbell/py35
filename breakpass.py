@@ -28,3 +28,5 @@ for letter in letters:
     print(letter)
     if letter in ["a", "i", "u", "e", "o"]:
         continue
+
+dogs = ["Labrador", "Golden Retriever", "Pug", "Greyhound", "Bulldog", "Cooker Spaniel"]
