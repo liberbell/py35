@@ -16,3 +16,9 @@ places = ["New Zealand", "Norway", "Botswana", "Zimbabwe", "Uzbekistan", "Paragu
 burglar_at = input("Enter the country where the burglar actually is: ")
 for place in places:
     print("Cops looking in ", place)
+
+    if place == burglar_at:
+        print("The burglar has been captured!")
+        break
+else:
+    print("")
