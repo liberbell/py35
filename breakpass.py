@@ -12,13 +12,19 @@ for num in [3, 11, 22, 35, 90]:
         print("Terminating the loop...")
         break
 
-places = ["New Zealand", "Norway", "Botswana", "Zimbabwe", "Uzbekistan", "Paraguay"]
-burglar_at = input("Enter the country where the burglar actually is: ")
-for place in places:
-    print("Cops looking in ", place)
+# places = ["New Zealand", "Norway", "Botswana", "Zimbabwe", "Uzbekistan", "Paraguay"]
+# burglar_at = input("Enter the country where the burglar actually is: ")
+# for place in places:
+#     print("Cops looking in ", place)
 
-    if place == burglar_at:
-        print("The burglar has been captured!")
-        break
-else:
-    print("The burglar got away...")
+#     if place == burglar_at:
+#         print("The burglar has been captured!")
+#         break
+# else:
+#     print("The burglar got away...")
+
+letters = "James Bond"
+for letter in letters:
+    if letter in ["a", "i", "u", "e", "o"]:
+        continue
+    print(letter)
