@@ -33,3 +33,6 @@ dogs = ["Labrador", "Golden Retriever", "Pug", "Greyhound", "Bulldog", "Cooker S
 for pet in dogs:
     if pet == "Pug":
         continue
+    if pet == "Bulldog":
+        break
+    print(pet)
