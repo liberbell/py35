@@ -30,3 +30,6 @@ for letter in letters:
         continue
 
 dogs = ["Labrador", "Golden Retriever", "Pug", "Greyhound", "Bulldog", "Cooker Spaniel"]
+for pet in dogs:
+    if pet == "Pug":
+        continue
