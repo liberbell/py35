@@ -12,5 +12,7 @@ for num in [3, 11, 22, 35, 90]:
         print("Terminating the loop...")
         break
 
-place = ["New Zealand", "Norway", "Botswana", "Zimbabwe", "Uzbekistan", "Paraguay"]
+places = ["New Zealand", "Norway", "Botswana", "Zimbabwe", "Uzbekistan", "Paraguay"]
 burglar_at = input("Enter the country where the burglar actually is: ")
+for place in places:
+    print("Cops looking in ", place)
