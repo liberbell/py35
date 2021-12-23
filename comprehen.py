@@ -35,3 +35,8 @@ multiples_13 = [i for i in range(200) if i % 13 == 0]
 print(multiples_13)
 
 print([i for i in "Harry Potter" if i.upper() not in ["A", "I", "U", "E", "O"]])
+
+shapes = ["Square", "Circle", "Triangle"]
+colors = ["Red", "Blue", "Green"]
+combined = [(color, shape) for shape in shapes for color in colors]
+print(combined)
