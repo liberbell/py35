@@ -49,4 +49,7 @@ print(num)
 
 input_list = [1, 2, 3, 4, 5, 6, 7]
 output_generator = (x * x for x in input_list)
-output_generator()
+print(output_generator)
+
+list_from_outputgenerator = list(output_generator)
+print(list_from_outputgenerator)
