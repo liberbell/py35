@@ -17,3 +17,6 @@ print(number_square)
 
 numbers_divided_by_ten = [n / 10 for n in numbers]
 print(numbers_divided_by_ten)
+
+my_num = range(2, 10)
+print(my_num)
