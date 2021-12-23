@@ -23,3 +23,5 @@ print(my_num)
 print([x ** x for x in my_num])
 
 list_of_words = ["to", "be", "or", "not", "to", "be", "that", "is", "the", "question"]
+uppercase_list = [word.upper() for word in list_of_words]
+print(uppercase_list)
