@@ -48,3 +48,5 @@ num = [(i, "Even") if i % 2 == 0 else (i, "Odd") for i in range(8)]
 print(num)
 
 input_list = [1, 2, 3, 4, 5, 6, 7]
+output_generator = (x * x for x in input_list)
+print(output_generator)
