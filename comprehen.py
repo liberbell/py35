@@ -28,3 +28,5 @@ print(uppercase_list)
 
 first_two_letters = [word[:2] for word in list_of_words]
 print(first_two_letters)
+
+print([x * x for x in range(20) if x % 2 == 0])
