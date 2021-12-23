@@ -34,4 +34,4 @@ print([x * x for x in range(20) if x % 2 == 0])
 multiples_13 = [i for i in range(200) if i % 13 == 0]
 print(multiples_13)
 
-print([i for i in "Harry potter" if i.upper() not in ["A", "I", "U", "E", "O"]])
+print([i for i in "Harry Potter" if i.upper() not in ["A", "I", "U", "E", "O"]])
