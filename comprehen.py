@@ -20,3 +20,4 @@ print(numbers_divided_by_ten)
 
 my_num = range(2, 10)
 print(my_num)
+print([x ** x for x in my_num])
