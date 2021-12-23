@@ -40,3 +40,6 @@ shapes = ["Square", "Circle", "Triangle"]
 colors = ["Red", "Blue", "Green"]
 combined = [(color, shape) for shape in shapes for color in colors]
 print(combined)
+
+number_list = [number for number in range(200) if number % 7 == 0 if number % 13 == 0]
+print(number_list)
