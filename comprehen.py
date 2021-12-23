@@ -14,3 +14,6 @@ print(numbers_copy_using_comprehension)
 
 number_square = [n * n for n in numbers]
 print(number_square)
+
+numbers_divided_by_ten = [n / 10 for n in numbers]
+print(numbers_divided_by_ten)
