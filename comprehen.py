@@ -11,3 +11,6 @@ print(numbers_copy)
 
 numbers_copy_using_comprehension = [number for number in numbers]
 print(numbers_copy_using_comprehension)
+
+number_square = [n * n for n in numbers]
+print(number_square)
