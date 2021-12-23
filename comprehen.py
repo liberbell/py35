@@ -8,3 +8,6 @@ for number in numbers:
     numbers_copy.append(number)
 
 print(numbers_copy)
+
+numbers_copy_using_comprehension = [number for number in numbers]
+print(numbers_copy_using_comprehension)
