@@ -30,3 +30,6 @@ first_two_letters = [word[:2] for word in list_of_words]
 print(first_two_letters)
 
 print([x * x for x in range(20) if x % 2 == 0])
+
+multiples_13 = [i for i in range(200) if i % 13 == 0]
+print(multiples_13)
