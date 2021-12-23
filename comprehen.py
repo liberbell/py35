@@ -45,3 +45,4 @@ number_list = [number for number in range(200) if number % 7 == 0 if number % 13
 print(number_list)
 
 num = [(i, "Even") if i % 2 == 0 else (i, "Odd") for i in range(8)]
+print(num)
