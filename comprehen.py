@@ -72,3 +72,4 @@ for word in uppercase_generator:
 # print(unique_words)
 
 original = {"Eric": 34000, "Alex": 23000, "Ed": 28000}
+flipped = {value: key for key, value in original}
