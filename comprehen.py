@@ -53,3 +53,8 @@ print(output_generator)
 
 list_from_outputgenerator = list(output_generator)
 print(list_from_outputgenerator)
+
+another_list_from_outputgenerator = list(output_generator)
+print(another_list_from_outputgenerator)
+
+list_of_words = ["Harry", "Potter", "and", "the", "Chamber", "of", "Secrets"]
