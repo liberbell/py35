@@ -63,3 +63,7 @@ print(uppercase_generator)
 
 for word in uppercase_generator:
     print(word)
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print(words)
