@@ -64,6 +64,11 @@ print(uppercase_generator)
 for word in uppercase_generator:
     print(word)
 
-sentence = input("Enter a sentence: ")
-words = sentence.split()
-print(words)
+# sentence = input("Enter a sentence: ")
+# words = sentence.split()
+# print(words)
+
+# unique_words = {w for w in words}
+# print(unique_words)
+
+original = {"Eric": 34000, "Alex": 23000, "Ed": 28000}
