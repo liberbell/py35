@@ -58,3 +58,5 @@ another_list_from_outputgenerator = list(output_generator)
 print(another_list_from_outputgenerator)
 
 list_of_words = ["Harry", "Potter", "and", "the", "Chamber", "of", "Secrets"]
+uppercase_generator = (word.upper() for word in list_of_words)
+print(uppercase_generator)
