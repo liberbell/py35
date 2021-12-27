@@ -7,3 +7,9 @@ def my_function():
 
 my_function()
 # hello()
+
+def hello():
+    print("in function hello")
+    print("What does this print?")
+
+hello()
