@@ -42,4 +42,10 @@ def greet(name):
     print(f"Hi {name}")
     print("Welcome aboard!")
 
-greet("Bob")
+# greet("Bob")
+
+def greet_fullname(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print("Welcome aboard!")
+
+greet_fullname("Alex", "Hep")
