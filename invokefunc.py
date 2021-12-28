@@ -20,8 +20,9 @@ def hello():
 # print("This is outside the function defenition.")
 # hello()
 
-def happy_birthday_chalie():
+def happy_birthday_charlie():
     """I hope your celebration gives you many happy memories!"""
     print("I hope you have a great day.")
 
-print(happy_birthday_chalie)
+print(happy_birthday_charlie.__doc__)
+# happy_birthday_charlie
