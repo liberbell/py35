@@ -50,3 +50,4 @@ def greet_fullname(first_name, last_name):
 
 greet_fullname("Alex", "Hep")
 # greet("Bob", "Alex")
+# greet_fullname("Alex")
