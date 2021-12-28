@@ -35,4 +35,5 @@ def function_with_error():
     result = "a" + 2
 
     print(result)
-print(function_with_error)
+# print(function_with_error())
+# print(function_with_error)
