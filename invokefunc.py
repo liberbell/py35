@@ -37,3 +37,9 @@ def function_with_error():
     print(result)
 # print(function_with_error())
 # print(function_with_error)
+
+def greet(name):
+    print(f"Hi {name}")
+    print("Welcome aboard!")
+
+greet("Bob")
