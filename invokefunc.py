@@ -49,3 +49,4 @@ def greet_fullname(first_name, last_name):
     print("Welcome aboard!")
 
 greet_fullname("Alex", "Hep")
+# greet("Bob", "Alex")
