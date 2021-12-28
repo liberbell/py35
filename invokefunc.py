@@ -24,5 +24,8 @@ def happy_birthday_charlie():
     """I hope your celebration gives you many happy memories!"""
     print("I hope you have a great day.")
 
-print(happy_birthday_charlie.__doc__)
+# print(happy_birthday_charlie.__doc__)
 # happy_birthday_charlie
+
+some_function = happy_birthday_charlie
+print(some_function)
