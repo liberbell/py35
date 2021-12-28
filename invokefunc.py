@@ -29,3 +29,4 @@ def happy_birthday_charlie():
 
 some_function = happy_birthday_charlie
 print(some_function)
+some_function()
