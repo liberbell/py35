@@ -62,5 +62,8 @@ def divisible_by_5(some_number):
 def print_times(some_string, num_times):
     """Prints the specific string the specified number of times
        The first argument is the string you want printed, the second
-       argument is the number of times you want the string printed 
+       argument is the number of times you want the string printed
+
+       Parameters (both required):
+       some_string(str): The string to be printed 
     """
