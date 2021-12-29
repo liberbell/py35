@@ -57,4 +57,4 @@ def divisible_by_5(some_number):
         print(f"This number {some_number} is divisible by 5.")
     else:
         print(f"This number {some_number} is not divisible by 5.")
- 
+divisible_by_5(11)
