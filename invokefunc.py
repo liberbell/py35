@@ -65,5 +65,8 @@ def print_times(some_string, num_times):
        argument is the number of times you want the string printed
 
        Parameters (both required):
-       some_string(str): The string to be printed 
+       some_string(str): The string to be printed
+
+       Returns:
+       No return values. 
     """
