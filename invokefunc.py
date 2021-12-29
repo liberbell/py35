@@ -74,3 +74,5 @@ def print_times(some_string, num_times):
         print(some_string)
 
 print(print_times.__doc__)
+
+print_times("Hello", 3)
