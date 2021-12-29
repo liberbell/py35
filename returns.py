@@ -2,7 +2,7 @@ def square(x):
     y = x * x
     
     print("Returns: ", y)
-    return None
+    return
 
 square(3)
 result = square(8)
