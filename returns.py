@@ -4,3 +4,5 @@ def square(x):
     print("Returns: ", y)
 
 square(3)
+result = square(8)
+print(result)
