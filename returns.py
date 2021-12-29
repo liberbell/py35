@@ -2,4 +2,4 @@ def square(x):
     y = x * x
     return y
 
-square(3)
+print(square(3))
