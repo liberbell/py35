@@ -72,3 +72,5 @@ def print_times(some_string, num_times):
     """
     for i in range(num_times):
         print(some_string)
+
+print(print_times.__doc__)
