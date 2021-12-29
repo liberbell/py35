@@ -51,3 +51,10 @@ def greet_fullname(first_name, last_name):
 greet_fullname("Alex", "Hep")
 # greet("Bob", "Alex")
 # greet_fullname("Alex")
+
+def divisible_by_5(some_number):
+    if some_number % 5 == 0:
+        print(f"This number {some_number} is divisible by 5.")
+    else:
+        print(f"This number {some_number} is not divisible by 5.")
+ 
