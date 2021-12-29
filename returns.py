@@ -7,3 +7,7 @@ def square(x):
 result = square(8)
 print(result)
 print(type(result))
+
+result = square(10.22341)
+print(result)
+print(type(result))
