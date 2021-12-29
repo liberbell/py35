@@ -57,4 +57,9 @@ def divisible_by_5(some_number):
         print(f"This number {some_number} is divisible by 5.")
     else:
         print(f"This number {some_number} is not divisible by 5.")
-divisible_by_5(11)
+# divisible_by_5(11)
+
+def print_times(some_string, num_times):
+    """Prints the specific string the specified number of times
+       The first argument is the string you 
+    """
