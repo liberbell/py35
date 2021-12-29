@@ -1,5 +1,6 @@
 def square(x):
     y = x * x
-    return y
+    
+    print("Returns: ", y)
 
-print(square(3))
+square(3)
