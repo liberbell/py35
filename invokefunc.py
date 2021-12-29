@@ -70,3 +70,5 @@ def print_times(some_string, num_times):
        Returns:
        No return values. 
     """
+    for i in range(num_times):
+        print(some_string)
