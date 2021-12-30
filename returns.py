@@ -57,5 +57,5 @@ def create_list(some_string:str, num_times:int) -> list:
     """
     return [some_string for i in range(num_times)]
 
-result = create_list(5, 10)
+result = create_list("Hello", 10)
 print(result)
