@@ -20,3 +20,6 @@ print(student_1)
 
 student_2 = create_student_record(name = "Alex", age = 19, major = "Math", gpa = 4.6)
 print(student_2)
+
+student_3 = create_student_record(gpa = 3.2, age = 24, major = "Plants", name = "Elton")
+print(student_3)
