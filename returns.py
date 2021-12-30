@@ -55,3 +55,4 @@ def create_list(some_string:str, num_times:int) -> list:
     some_string(str): The string to be printed
     num_times(int): The number of times the string should be printed 
     """
+    return [(some_string for i in range(num_times))]
