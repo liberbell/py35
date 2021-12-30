@@ -39,5 +39,6 @@ def positive_or_negative(num):
     else:
         return "Zero!"
 
-result = positive_or_negative(5)
+result = positive_or_negative(-4)
 print(result)
+print(type(result))
