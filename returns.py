@@ -39,6 +39,18 @@ def positive_or_negative(num):
     else:
         return "Zero!"
 
-result = positive_or_negative(-4)
+result = positive_or_negative(0)
 print(result)
 print(type(result))
+
+def create_list(some_string:str, num_times:int) -> list:
+    """
+    Returns a list containing the specified string tht specified
+    number of times
+
+    The first argument is the string you want printed, the second
+    argument is the number of times you want the string printed
+
+    Parameters (both required)
+    some_string:str
+    """
