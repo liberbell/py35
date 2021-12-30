@@ -52,5 +52,6 @@ def create_list(some_string:str, num_times:int) -> list:
     argument is the number of times you want the string printed
 
     Parameters (both required)
-    some_string:str
+    some_string(str): The string to be printed
+    num_times(int): The number of times the string should be printed 
     """
