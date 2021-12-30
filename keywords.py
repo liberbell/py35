@@ -14,3 +14,6 @@ def create_student_record(name, age, major, gpa):
 
 student_1 = create_student_record("Eric", 23, "Computer Science", 3.8)
 print(student_1)
+
+student_2 = create_student_record("Alex", 4.6, 19, "Math")
+print(student_2)
