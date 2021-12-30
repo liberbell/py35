@@ -55,7 +55,7 @@ def create_list(some_string:str, num_times:int) -> list:
     some_string(str): The string to be printed
     num_times(int): The number of times the string should be printed 
     """
-    return [(some_string for i in range(num_times))]
+    return [some_string for i in range(num_times)]
 
-result = create_list("Hello", 10)
+result = create_list(5, 10)
 print(result)
