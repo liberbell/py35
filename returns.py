@@ -30,3 +30,14 @@ print(type(result))
 
 add_result, _, _, _, = calculate(100, 5)
 print(add_result)
+
+def positive_or_negative(num):
+    if num > 0:
+        return "Positive!"
+    elif num < 0:
+        return "Negative!"
+    else:
+        return "Zero!"
+
+result = positive_or_negative(5)
+print(result)
