@@ -24,6 +24,9 @@ result = calculate(10, 2)
 print(result)
 print(type(result))
 
-add_result, sub_result, mul_result, div_result = calculate(10, 2)
-print(add_result, sub_result, mul_result, div_result)
+# add_result, sub_result, mul_result, div_result = calculate(10, 2)
+# print(add_result, sub_result, mul_result, div_result)
 # print(type(result))
+
+add_result, _, _, _, = calculate(100, 5)
+print(add_result)
