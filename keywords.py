@@ -65,3 +65,6 @@ def create_student_record(name = "Bob", age = 22, gpa = 3.5, major = "Computer S
         "major": major,
         "university": university
     }
+
+student_1 = create_student_record()
+print(student_1)
