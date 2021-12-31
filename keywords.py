@@ -44,3 +44,6 @@ print(student_1)
 
 student_2 = create_student_record("George", 20, 3.8, "English")
 print(student_2)
+
+student_3 = create_student_record("Ed", 20, 3.8, "Chemistry", "Cornell")
+print(student_3)
