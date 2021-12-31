@@ -13,7 +13,7 @@ languages_list = ("Python", "Java", "C++", "C#", "JavaScript")
 display(*languages_list)
 
 department_employee_mapping = {}
-def add_employe_to_department(department, *employee):
+def add_employe_to_department(department, *employees):
     if department not in department_employee_mapping:
         department_employee_mapping[department] = []
 
