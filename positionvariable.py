@@ -3,3 +3,7 @@ def display(*args):
 
 display()
 display("Python")
+display("Pyhon", "Ruby")
+
+languages_list = ["Python", "Java", "C++", "C#", "JavaScript"]
+display(languages_list)
