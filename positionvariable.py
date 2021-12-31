@@ -23,3 +23,6 @@ def add_employe_to_department(department, *employees):
 print(department_employee_mapping)
 add_employe_to_department("Sales")
 print(department_employee_mapping)
+
+add_employe_to_department("Sales", "Eric", "Alex", "George")
+print(department_employee_mapping)
