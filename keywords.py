@@ -29,3 +29,12 @@ print(student_3)
 
 student_4 = create_student_record("Bob", 18, major = "Plants", gpa = 3.2)
 print(student_4)
+
+def create_student_record(name, age, gpa, major = "Computer Science", university = "Priceton"):
+    return {
+        "name": name,
+        "age": age,
+        "gpa": gpa,
+        "major": major,
+        "university": university
+    }
