@@ -19,3 +19,7 @@ def add_employe_to_department(department, *employee):
 
     for employee in employees:
         department_employee_mapping[department].append(employee)
+
+print(department_employee_mapping)
+add_employe_to_department("Sales")
+print(department_employee_mapping)
