@@ -28,3 +28,10 @@ add_employe_to_department("Sales", "Eric", "Alex", "George")
 print(department_employee_mapping)
 add_employe_to_department("Engineering", "Elton", "Jhon", "Ringo")
 print(department_employee_mapping)
+
+department_employee_mapping = {}
+def add_employee_to_department(*employees, department):
+    if department not in department_employee_mapping:
+        department_employee_mapping[department] = []
+    for employee in employees:
+        department_employee_mapping[department].append(employee)
