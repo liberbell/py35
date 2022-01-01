@@ -26,3 +26,6 @@ print(department_employee_mapping)
 
 add_employe_to_department("Sales", "Eric", "Alex", "George")
 print(department_employee_mapping)
+add_employe_to_department("Engineering", "Elton", "Jhon", "Ringo")
+print(department_employee_mapping)
+print("test")
