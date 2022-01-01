@@ -60,3 +60,5 @@ print(employee_detail_mapping)
 
 def students_in_college(*student_name, **college_details):
     print("Students--")
+    for s in student_name:
+        print(s)
