@@ -52,4 +52,5 @@ employee_detail_mapping = {}
 def add_employee_details(**employee_details):
     employee_detail_mapping[employee_details["name"]] = employee_details
 
-add_employee_details("Eric")
+add_employee_details(name = "Eric", age = 45)
+print(employee_detail_mapping)
