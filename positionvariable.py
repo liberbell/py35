@@ -47,3 +47,9 @@ def add_employee_details(**kwargs):
     print(kwargs)
 
 add_employee_details(name="Bob", age=34)
+
+employee_detail_mapping = {}
+def add_employee_details(**employee_details):
+    employee_detail_mapping[employee_details["name"]] = employee_details
+
+add_employee_details("Eric")
