@@ -46,4 +46,4 @@ def add_employee_details(**kwargs):
     print(type(kwargs))
     print(kwargs)
 
-add_employee_details("Bob")
+add_employee_details(name="Bob", age=34)
