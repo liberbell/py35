@@ -66,3 +66,5 @@ def students_in_college(*student_name, **college_details):
     print()
 
     print("College Details--")
+    for key, value in college_details.items():
+        print(key, value)
