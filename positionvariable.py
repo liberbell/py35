@@ -36,5 +36,8 @@ def add_employee_to_department(*employees, department):
     for employee in employees:
         department_employee_mapping[department].append(employee)
 
-add_employee_to_department("Sales", "Bob", "Eric", "Jhon")
+# add_employee_to_department("Sales", "Bob", "Eric", "Jhon")
+# print(department_employee_mapping)
+
+add_employee_to_department("Bob", "Eric", "Jhon", department= "Sales")
 print(department_employee_mapping)
