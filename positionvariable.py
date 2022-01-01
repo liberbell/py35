@@ -41,3 +41,7 @@ def add_employee_to_department(*employees, department):
 
 add_employee_to_department("Bob", "Eric", "Jhon", department= "Sales")
 print(department_employee_mapping)
+
+def add_employee_details(**kwargs):
+    print(type(kwargs))
+    print(kwargs)
