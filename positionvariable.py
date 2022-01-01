@@ -57,3 +57,6 @@ print(employee_detail_mapping)
 
 add_employee_details(name="Alex", age=31, salary=450000, department="Human Resource")
 print(employee_detail_mapping)
+
+def students_in_college(*student_name, **college_details):
+    print("Students--")
