@@ -45,3 +45,5 @@ print(department_employee_mapping)
 def add_employee_details(**kwargs):
     print(type(kwargs))
     print(kwargs)
+
+add_employee_details("Bob")
