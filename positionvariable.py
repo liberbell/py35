@@ -62,3 +62,7 @@ def students_in_college(*student_name, **college_details):
     print("Students--")
     for s in student_name:
         print(s)
+
+    print()
+
+    print("College Details--")
