@@ -54,3 +54,6 @@ def add_employee_details(**employee_details):
 
 add_employee_details(name = "Eric", age = 45)
 print(employee_detail_mapping)
+
+add_employee_details(name="Alex", age=31, salary=450000, department="Human Resource")
+print(employee_detail_mapping)
