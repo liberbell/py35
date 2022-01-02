@@ -2,7 +2,7 @@ order = "groceries"
 service = "Instacart"
 
 def print_details_of_files():
-    order = "Meat"
+    order =  order + ", Meat"
     service = "DoorDash"
 
     print("--Inside the function---")
