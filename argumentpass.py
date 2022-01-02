@@ -26,3 +26,4 @@ def reassign_list(color_list):
 
 reassign_list(color_list)
 print()
+print("Outside the function:", color_list)
