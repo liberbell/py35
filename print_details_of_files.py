@@ -1,8 +1,10 @@
 order = "groceries"
 service = "Instacart"
 
-def print_details_of_files(order, service):
+def print_details_of_files():
+    order = "Meat"
+
     print("Order: ", order)
     print("Service: ", service)
 
-print_details_of_files("Chinese food", "Uber")
+print_details_of_files()
