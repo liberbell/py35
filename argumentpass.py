@@ -35,3 +35,5 @@ def update_list(color_list):
 update_list(color_list)
 print()
 print("List outside the function: ", color_list)
+
+color_tuple = ("Cyan", "Magenta", "White", "Purple", "Violet")
