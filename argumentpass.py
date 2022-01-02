@@ -27,3 +27,11 @@ def reassign_list(color_list):
 reassign_list(color_list)
 print()
 print("Outside the function:", color_list)
+
+def update_list(color_list):
+    color_list.remove("black")
+    print("List inside the function: ", color_list)
+
+update_list(color_list)
+print()
+print("List outside the function: ", color_list)
