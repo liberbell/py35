@@ -5,3 +5,5 @@ print(say_hello("Bob"))
 greet_hello = say_hello
 print(greet_hello("Eric"))
 print(dir(say_hello))
+
+print(say_hello.__str__)
