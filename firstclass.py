@@ -29,7 +29,7 @@ print(calculate(10, raise_to_four))
 
 def calculate(*args, func):
     return func(*args)
-print(calculate(10, 2, raise_to_n))
+print(calculate(10, 2, func=raise_to_n))
 
 # print(square())
 # print(cube())
