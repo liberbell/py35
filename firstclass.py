@@ -19,3 +19,8 @@ def raise_to_four(number):
 
 def raise_to_n(number, n):
     return number ** n
+
+print(square())
+print(cube())
+print(raise_to_four())
+print(raise_to_n())
