@@ -39,7 +39,7 @@ print("List outside the function: ", color_list)
 color_tuple = ("Cyan", "Magenta", "White", "Purple", "Violet")
 
 def reassign_tuple(color_list):
-    color_touple = ("Green", "Red")
+    color_tuple = ("Green", "Red")
     print("Tuple inside the function: ", color_tuple)
 
 reassign_tuple(color_tuple)
