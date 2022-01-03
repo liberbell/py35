@@ -20,13 +20,16 @@ def raise_to_four(number):
 def raise_to_n(number, n):
     return number ** n
 
-def calculate(*args, func):
-    return func(*args)
+def calculate(number, func):
+    return func(number)
 
 print(calculate(10, square))
 print(calculate(10, cube))
 print(calculate(10, raise_to_four))
-print(calculate(10, raise_to_n))
+
+def calculate(*args, func):
+    return func(*args)
+print(calculate(10, 2, raise_to_n))
 
 # print(square())
 # print(cube())
