@@ -23,6 +23,8 @@ def raise_to_n(number, n):
 def calculate(number, func):
     return func(number)
 
+print(calculate(10, square))
+
 # print(square())
 # print(cube())
 # print(raise_to_four())
