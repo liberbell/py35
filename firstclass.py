@@ -24,6 +24,8 @@ def calculate(number, func):
     return func(number)
 
 print(calculate(10, square))
+print(calculate(10, cube))
+print(calculate(10, raise_to_four))
 
 # print(square())
 # print(cube())
