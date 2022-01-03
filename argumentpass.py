@@ -45,3 +45,11 @@ def reassign_tuple(color_list):
 reassign_tuple(color_tuple)
 print()
 print("Tuple outside the function: ", color_tuple)
+
+def update_tuple(color_list):
+    color_tuple[0] = ("Green")
+    print("Tuple inside the function: ", color_tuple)
+
+update_tuple(color_tuple)
+print()
+print("Tuple outside the function: ", color_tuple)
