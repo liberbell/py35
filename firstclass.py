@@ -16,3 +16,6 @@ def cube(number):
 
 def raise_to_four(number):
     return number ** 4
+
+def raise_to_n(number, n):
+    return number ** n
