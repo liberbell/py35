@@ -13,3 +13,6 @@ def square(number):
 
 def cube(number):
     return number * number * number
+
+def raise_to_four(number):
+    return number ** 4
