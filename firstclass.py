@@ -25,7 +25,7 @@ def cube_root(number):
 
 def square_root(number):
     return number ** (1/2)
-    
+
 def calculate(number, func):
     return func(number)
 
@@ -54,7 +54,14 @@ print(fn)
 print(fn(10))
 
 fn = get_function("cube_root")
-print(fn(10))
+print(fn(1000))
+
+dictionary_operation = {
+    'square': square,
+    'square_root': square_root,
+    'cube': cube,
+    'cube_root': cube_root
+}
 
 # print(square())
 # print(cube())
