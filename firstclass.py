@@ -23,6 +23,9 @@ def raise_to_n(number, n):
 def cube_root(number):
     return number ** (1/3)
 
+def square_root(number):
+    return number ** (1/2)
+    
 def calculate(number, func):
     return func(number)
 
