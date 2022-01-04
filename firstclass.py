@@ -43,6 +43,9 @@ def get_function(computaion = "square"):
     elif computaion == "raise_to_n":
         return raise_to_n
 
+fn = get_function()
+print(fn)
+
 # print(square())
 # print(cube())
 # print(raise_to_four())
