@@ -45,6 +45,7 @@ def get_function(computaion = "square"):
 
 fn = get_function()
 print(fn)
+print(fn(10))
 
 # print(square())
 # print(cube())
