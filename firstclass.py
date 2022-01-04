@@ -40,6 +40,8 @@ def get_function(computaion = "square"):
         return square_root
     elif computaion == "cube_root":
         return cube_root
+    elif computaion == "raise_to_n":
+        return raise_to_n
 
 # print(square())
 # print(cube())
