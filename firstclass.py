@@ -20,6 +20,9 @@ def raise_to_four(number):
 def raise_to_n(number, n):
     return number ** n
 
+def cube_root(number):
+    return number ** (1/3)
+
 def calculate(number, func):
     return func(number)
 
