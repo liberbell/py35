@@ -60,7 +60,8 @@ dictionary_operation = {
     'square': square,
     'square_root': square_root,
     'cube': cube,
-    'cube_root': cube_root
+    'cube_root': cube_root,
+    'raise_to_n': raise_to_n
 }
 
 # print(square())
