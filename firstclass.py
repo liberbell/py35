@@ -31,6 +31,16 @@ def calculate(*args, func):
     return func(*args)
 print(calculate(10, 2, func=raise_to_n))
 
+def get_function(computaion = "square"):
+    if computaion == "square":
+        return square
+    elif computaion == "cube":
+        return cube
+    elif computaion == "square_root":
+        return square_root
+    elif computaion == "cube_root":
+        return cube_root
+
 # print(square())
 # print(cube())
 # print(raise_to_four())
