@@ -65,6 +65,7 @@ dictionary_operation = {
 }
 
 print(dictionary_operation['raise_to_n'])
+print(dictionary_operation['raise_to_n'](9, 3))
 
 # print(square())
 # print(cube())
